@@ -1,0 +1,38 @@
+.main-footer {
+    background-color: var(--black);
+    color: white;
+    font-family: var(--karla);
+    padding: 6vh;
+}
+
+.footer-content-container{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    justify-items: center;
+    gap: 4vh;
+
+}
+
+.copyright-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+    justify-items: start;
+    gap: 4vh;
+}
+
+.footer-subheader  {
+    font-size: 24px;
+    margin-bottom: 1vh;
+    font-family: var(--markazi);
+    color: var(--terracota-dark)
+}
+
+.footer-details ul li{
+    list-style: none;
+}
+.footer-details ul li a{
+   text-decoration: none;
+   color: white;
+}

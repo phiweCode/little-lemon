@@ -1,0 +1,94 @@
+.highlights{
+    padding: 15vh 6vw;
+    height: 140vh;
+}
+
+.highlight-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    font-size: 74px;
+    font-family: var(--markazi);
+    margin-bottom: 8vh;
+}
+
+.on-the-menu {
+    background-color: var(--bright-yellow);
+    padding: 2vh;
+    border-radius: 5px;
+
+}
+
+.meal-cards {
+    width: 93%;
+}
+
+.meal-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2vw;
+}
+
+.meal-image {
+    background-color: tomato;
+    height: 40vh;
+}
+
+.meal-card{
+
+    background-color: var(--dark-green);
+    color: white;
+
+}
+
+.meal-1{
+    background: url('../../assets/images/meal-1.jpg') center/cover no-repeat;
+}
+.meal-2{
+    background: url('../../assets/images/meal-2.jpg') center/cover no-repeat;
+}
+.meal-3{
+    background: url('../../assets/images/meal-3.jpg') center/cover no-repeat;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2vh;
+}
+
+.meal-name-and-price {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: var(--markazi);
+    margin-bottom: 2vh;
+}
+
+.meal-name-and-price span:last-child {
+    color: var(--terracota-dark);
+}
+
+.meal-description {
+    width: 90%;
+    font-family: var(--karla);
+    text-align:justify;
+    margin-bottom: 2vh;
+}
+
+.meal-delivery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    font-size: 30px;
+    font-family: var(--markazi);
+
+}
+
+.meal-delivery span svg {
+    color: white;
+}

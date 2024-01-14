@@ -1,0 +1,28 @@
+.about-section {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    padding: 5vh;
+    height: 80vh;
+    background-color: var(--terracota-dark);
+    gap: 4vh;
+}
+
+.about-subheading {
+    font-size: 94px;
+    font-family: var(--markazi);
+    color: white;
+    line-height: 5rem;
+}
+
+.about-description {
+    font-family: var(--karla);
+    text-align: justify;
+    font-size: .8rem;
+
+}
+
+.about-image {
+    background: url('../../assets/images/about.jpg') center/cover no-repeat;
+    height: 100%;
+    width: 100%;
+}

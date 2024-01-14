@@ -1,0 +1,46 @@
+
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 6vw;
+    background-color: #EDEFEE;
+}
+
+#logo {
+    max-width: 20vw;
+
+}
+
+#main-nav {
+
+    width: 100%;
+    max-width: 50vw;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 92%;
+
+}
+
+#main-nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    border-radius: 2px;
+    list-style: none;
+    height: 4vh;
+    min-width: 6vw;
+    font-family: var(--karla);
+    font-size: 18px;
+}
+
+
+#main-nav ul li:hover {
+background-color: var(--dark-green);
+color: var(--light-gray) ;
+}
