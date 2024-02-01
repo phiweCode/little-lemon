@@ -1,0 +1,39 @@
+
+.booking-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-height: 80vh;
+    padding: 5vh;
+    background: url('../../assets/images/about.jpg') center/cover no-repeat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-green);
+    min-width: 40vw;
+    padding: 2vh;
+    border-radius: 5px;
+}
+
+input, select {
+    margin-bottom: 2vh;
+    height:4vh;
+    border-radius: 2px;
+    border: none;
+    max-width: 100%;
+    padding-left: .8rem;
+    font-family: var(--karla);
+}
+
+label {
+    font-family: var(--markazi);
+    font-size:2rem;
+    color: var(--light-gray)
+}
+
+.reservation-btn {
+    font-size: 1.5rem;
+    height:6vh;
+}

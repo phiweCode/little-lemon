@@ -1,25 +1,19 @@
 import {Fragment, useState } from 'react'
 import './App.css'
+
+import Homepage from './pages/Homepage'
 import Header from './components/Header/Header'
-import HeroSection from './components/HeroSection/HeroSection'
-import Highlights from './components/Highlights/Highlights'
-import Testimonials from './components/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
-import About from './components/About/About'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
 
   return (
     <Fragment>
-      <Header />
-        <main>
-          <HeroSection />
-          <Highlights />
-          <Testimonials />
-          <About />
-        </main>
-      <Footer />
+    <Header />
+      <Outlet />
+    <Footer />
     </Fragment>
   )
 }
